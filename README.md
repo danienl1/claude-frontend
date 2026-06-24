@@ -35,7 +35,7 @@ The skill is built around frontend work that needs more than code generation:
 ### Manual
 
 ```bash
-git clone https://github.com/AgriciDaniel/claude-frontend.git
+git clone https://github.com/danienl1/claude-frontend.git
 cd claude-frontend
 bash install.sh
 ```

@@ -3,7 +3,7 @@ set -euo pipefail
 
 SKILL_NAME="frontend"
 SKILL_DIR="$HOME/.claude/skills/$SKILL_NAME"
-REPO_URL="https://github.com/AgriciDaniel/claude-frontend"
+REPO_URL="https://github.com/danienl1/claude-frontend"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOCAL_MODE="false"
 
