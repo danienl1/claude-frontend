@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Frontend GARE architecture</title>
+  <desc id="desc">Gather, Analyze, Recommend, Execute workflow for frontend creation and validation</desc>
+  <rect width="1400" height="520" fill="#0f172a"/>
+  <text x="700" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#f8fafc">Frontend GARE Architecture</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(84 150)">
+      <rect width="260" height="160" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+      <text x="130" y="50" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="800">GATHER</text>
+      <text x="130" y="90" text-anchor="middle" fill="#cbd5e1" font-size="16">Stack, routes, styles</text>
+      <text x="130" y="118" text-anchor="middle" fill="#cbd5e1" font-size="16">scripts, target URLs</text>
+    </g>
+    <path d="M360 230h110" stroke="#38bdf8" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(486 150)">
+      <rect width="260" height="160" rx="18" fill="#1e293b" stroke="#22c55e"/>
+      <text x="130" y="50" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="800">ANALYZE</text>
+      <text x="130" y="90" text-anchor="middle" fill="#cbd5e1" font-size="16">8 parallel agents</text>
+      <text x="130" y="118" text-anchor="middle" fill="#cbd5e1" font-size="16">score and evidence</text>
+    </g>
+    <path d="M762 230h110" stroke="#22c55e" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(888 150)">
+      <rect width="260" height="160" rx="18" fill="#1e293b" stroke="#f59e0b"/>
+      <text x="130" y="50" text-anchor="middle" fill="#f8fafc" font-size="26" font-weight="800">RECOMMEND</text>
+      <text x="130" y="90" text-anchor="middle" fill="#cbd5e1" font-size="16">Priorities, risk, plan</text>
+      <text x="130" y="118" text-anchor="middle" fill="#cbd5e1" font-size="16">dedupe and grade</text>
+    </g>
+    <path d="M1164 230h70" stroke="#f59e0b" stroke-width="5" marker-end="url(#arrow)"/>
+    <g transform="translate(1250 150)">
+      <rect width="110" height="160" rx="18" fill="#1e293b" stroke="#a78bfa"/>
+      <text x="55" y="50" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="800">EXEC</text>
+      <text x="55" y="90" text-anchor="middle" fill="#cbd5e1" font-size="14">patch</text>
+      <text x="55" y="118" text-anchor="middle" fill="#cbd5e1" font-size="14">verify</text>
+    </g>
+    <rect x="350" y="382" width="700" height="72" rx="18" fill="#111827" stroke="#475569"/>
+    <text x="700" y="426" text-anchor="middle" fill="#e2e8f0" font-size="20">Browser validation closes the loop with screenshots, console checks, accessibility, and build output.</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

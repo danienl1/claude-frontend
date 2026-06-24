@@ -1,0 +1,23 @@
+{
+  "name": "claude-frontend",
+  "version": "0.1.0",
+  "description": "Claude Code skill for frontend creation, design critique, accessibility, responsive layout, performance, and browser validation.",
+  "author": {
+    "name": "AgriciDaniel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "frontend",
+    "design-system",
+    "accessibility",
+    "playwright",
+    "react",
+    "nextjs",
+    "ui-validation"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+playwright-report/
+test-results/
+artifacts/
+*.log
+research/
